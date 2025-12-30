@@ -6,7 +6,7 @@ attrs
 blinker
 cachetools
 certifi
-charset-normalize
+charset-normalizer
 click
 colorama
 distro
