@@ -41,7 +41,7 @@ rpds-py
 six
 smmap
 sniffio
-streamli
+streamlit
 tenacity
 toml
 tornado
