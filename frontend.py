@@ -6,7 +6,7 @@ from generate import generate_graph_insights_openai
 from io import BytesIO
 import base64
 
-API_KEY = st.secrets["OPENAI_API_KEY"]
+os.eviron["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 # Assume you already have these functions:
 # - load_employee_graphs(base_dir, employee_name)
 # - generate_employee_summary(api_key, employee_name, images)
